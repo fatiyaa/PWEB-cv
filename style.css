@@ -1,0 +1,178 @@
+/* general structure */
+
+body{
+    background-image: url("D:/GOOD MORNING/LANGKAH BERTAHAN HIDUP/wp.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    position:absolute;
+}
+
+h2, h3, h4{
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+    
+}
+
+a:hover{
+    color:burlywood;
+}
+
+
+/* main navigation */
+
+#titlem{
+    background-color: rgb(0, 0, 0);
+    border:0;
+    float: left;
+    padding: 6.5px 91px;
+    margin: 0px 0px;
+    font-size: 35px;
+    color:wheat;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.navimg{
+    width: 30px;
+    height: 30px;
+    margin: 10px;
+}
+
+.navbar{
+    background-color:rgb(150, 100, 50);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 50px;
+}
+
+#home{
+    float:left;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.nav{
+    background-color: rgb(150, 100, 50);
+    float: left;
+    padding: 14px;
+    margin: 0px -1px;
+    font-size: 16px;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+.SNS{
+    float: right;
+}
+
+/* side explanation */
+
+.sideimg{
+    height: 360px;
+    width: 202.5px;
+    display: block;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.sidenav{
+    height: 100%;
+    margin-top: 50px;
+    width: 308px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    padding-top: 0px;
+    background-color: rgba(62, 50, 50, 0.85);
+}
+
+.sidedesc{
+    color: wheat;
+    text-align:center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* main various things */
+
+.main{
+    background-color: rgba(245, 222, 179,0.9);
+    width: 970px;
+    margin-top: 80px;
+    margin-left: 350px;
+    margin-right: 50px;
+    margin-bottom: 70px;
+}
+
+
+.poin{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 16px;
+}
+
+#e1, #e2{
+    padding: 0px;
+    width: 455px;
+    height: 270px;
+    margin:10px;
+    top: 0;
+    display: inline;
+}
+
+.note{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.logo{
+    display: block;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.exp{
+    width: 950px;
+}
+
+/* footer(?) */
+
+.und{
+    background-color:rgb(150, 100, 50);
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 60px;
+}
+#bunder{
+    margin: 0;
+    position: absolute;
+    top:30%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    background-color: wheat;
+    border:0;
+    font-size: 15px;
+    color:wheat;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 12px;
+}
+
+#thec{
+    font-style:italic;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 14px;
+    margin-top: 35px;
+    text-align: center;
+    color:wheat;
+}
